@@ -1,0 +1,52 @@
+*,body{padding:0;margin:0 auto;}
+.wrap{width:1000px;margin:0 auto;}
+.bf{background:#fff;}
+.fr{float:right;}
+.fl{float:left}
+.clear{clear:both;}
+/*header*/
+.header .top{text-align: center;margin:30px 0px;}
+.header .nav{background:rgb(0,0,0,0.8);width:100%;height:60px;line-height: 60px;}
+.navbox ul li{list-style: none;width:140px;text-align: center;float:left;}
+.navbox ul li a{display:block;color:#fff;text-decoration: none;font-size:1.5em;line-height: 60px;}
+.navbox ul li a:hover{color:#ff0}
+
+/*footer*/
+.footer{padding:20px 0px;margin-top:50px;text-align: center;}
+
+/*the centre content of home*/
+.content{padding:15px;margin-top:30px;background:#fff;}
+.content h2{text-align: center;margin:20px 0px}
+.content p{text-indent: 1.5em;color: #333;font-size: 24px;line-height: 36px;}
+.wqlogo{position: fixed;right:10px;top:20%;}
+.wqlogo img{width:160px;}
+
+.my{margin:10px 20px;padding:30px 0px;height:300px;background:#fff;}
+.myphoto img{width: 400px;}
+.mydes{width:480px;margin-left:30px;}
+.mydes h3{line-height: 32px;}
+
+/*DEGREE*/
+.news{margin:30px 0px;padding:15px;}
+.news .com img{width:280px;margin:10px;}
+.news .newsbox{width:600px;color:#fff;margin-left:30px;margin-bottom:20px;}
+.news .newsbox a{color:#fff}
+
+
+/*quiz*/
+.ques{margin:30px 0px;padding:10px;background:#fff;}
+.ques img{width:80%;}
+.ques p{
+    font-size: large;
+    text-align: right;;
+    border-bottom:1px solid black ;
+    color:red;
+}
+.ques .answer{margin:10px 0px;}
+
+/*canvas*/
+col{
+    background-color:red;
+}
+.canvas{margin:30px  0px;}
+.canvas h4{line-height: 40px;}

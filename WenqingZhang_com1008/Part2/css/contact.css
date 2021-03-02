@@ -1,0 +1,60 @@
+nav {
+    font-size: 1.5em;
+    list-style: none;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}   
+/* the setting of navigation about words and color */
+h2{
+    text-align: center;
+}
+/* the world place in the center */
+
+.hh h2{
+
+    margin-left: 200px;
+    text-align: center;
+}
+/* the world place in the center */
+
+
+.p1 p{
+    font-size: 1.7em;
+}
+.wqlogo img{
+    width: 200px;
+    float: right;
+}
+.final img{
+    width: 2000px;
+    float: right;
+    margin-left: 40px;
+}
+
+footer{
+    margin-top: 350px;
+    text-align: center;
+    color: black;
+}
+/* the world place in the center */
+
+.im img{
+    margin-top: 70px;
+    margin-right: 200px;
+    float: right;
+}
+
+form{
+    font-size: 1.7em;
+    margin-left: 250px;
+
+}
+
+.about-desc-info{
+    font-size: 1.7em;
+    margin-left: 250px;
+    margin-top: 200px;   
+}

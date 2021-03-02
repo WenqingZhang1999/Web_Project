@@ -1,0 +1,63 @@
+h2{
+    text-align: center;
+}
+.wqlogo img{
+    width: 200px;
+    float: right;
+}
+footer{
+    text-align: center;
+    margin-top: 300px;
+    color: black;
+}
+nav {
+    font-size: 1.5em;
+    list-style: none;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h3{
+    font-size: 1.7em;
+}
+
+
+p{
+    margin:15px;
+    font-family:Arial;
+    
+  }
+  .father{
+    border:10px solid #111111;
+    padding:20px;
+    background-color:#ffff99;
+  }
+  .father div{
+    padding:10px;
+    margin:10px;
+    background-color:#90baff;
+    border:5px dashed #111111;
+  }
+  .father p{
+    background-color:#ff90ba;
+    border:5px dashed #111111;
+  }
+
+
+.pic1 img{
+    height: 200px;
+    float: right;
+    
+}
+
+.pic2 img{
+    width: 600px;
+    float: right;
+}
+
+.pic3 img{
+    width: 600px;
+    float: right;
+}

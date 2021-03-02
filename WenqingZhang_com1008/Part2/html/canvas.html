@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/canvas.css">
+		<link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="../css/help.css">
+</head>
+<body background="../picture/Background4.jpg" style=" background-repeat:no-repeat; background-size:100% 100%; background-attachment: fixed;">
+   <div class='header'>
+   	<h2 class="top">Canvas</h2>
+   	
+   	<div class='nav'>
+   			<div class='wrap navbox'>
+   				<ul>
+   					<li><a href="index.html">Home</a></li>
+   					<li><a href="degree.html">Degree</a></li>
+   					<li><a href="quiz.html">quiz</a></li>
+   					<li><a href="canvas.html">canvas</a></li>
+   					<li><a href="contact.html">contact</a></li>
+   					<li><a href="accessibility.html">accessibility</a></li> 
+   				</ul>
+   			</div>
+   
+   	</div>
+    <div class="wqlogo">
+        <img src="../picture/zwqlogo.jpg" alt="...">
+    </div>
+	
+	<div class="wrap">
+		
+		
+	<div class="canvas">
+		
+	 <!-- the logo of my design -->
+    <h4>This is the pie about the time of each subject I spend in my daily life. <br>
+        Click the push-button to find the surprise.</h4>
+         <!-- brief introduction of the purpose -->
+    <h4>This is general form of time arrangement in 3 courses</h4>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+         <!-- colours setting -->
+        <h2>The time spent on every course one week</h2>
+      <!-- brief introduction of the purpose -->
+        <tr>
+            <td>COM1001</td> 
+            <td>COM1002</td> 
+            <td>COM1003</td> 
+            <td>COM1005</td> 
+            <td>COM1006</td>
+            <td>COM1008</td>  
+        </tr>
+        <tr>    
+            <td>15</td>
+            <td>25</td> 
+            <td>20</td> 
+            <td>10</td> 
+            <td>15</td> 
+            <td>15</td>     
+        </tr> 
+    
+    </table>
+     <!-- the table of form to show the time consumption during the period -->
+        <link rel="stylesheet" href="1008.css">
+
+        <li>
+            <style>
+                canvas{
+                    border: 1px solid #ccc;
+                    display: block;
+                    margin: 50px auto;
+                }
+            </style>
+            <canvas width="600" height="400"></canvas>
+            <p>
+                
+                <button id="redraw">Change color</button>   
+            </p>
+            <script src="../js/pie.js"></script>
+           </li>
+
+           <h4>This is the bar about the time of each subject I spend in my daily life. <br>
+            Click the push-button to find the surprise.</h4>
+           <h4>This is general form of time arrangement in COM1008 every day</h4>
+         <!-- brief introduction of the purpose -->
+
+
+        <table>
+            <colgroup>
+                <col>
+                <col>
+            </colgroup>
+            <!-- colours setting -->
+            <tr>
+                <th>Date</th>
+                <th>The time I studied 1003 </th>
+            </tr>
+            <tr>
+                <td>06/12/2020</td>     
+                <td>3   hours</td>    
+            </tr> 
+            <tr>
+                <td>07/12/2020</td>     
+                <td>1.5   hours</td>     
+            </tr> 
+            <tr>
+                <td>08/12/2020</td>     
+                <td>0   hours</td>    
+            </tr>
+            <tr>
+                <td>09/12/2020</td>     
+                <td>4   hours</td>     
+            </tr> 
+            <tr>
+                <td>10/12/2020</td>     
+                <td>0.5   hours</td>     
+            </tr>
+            <tr>
+                <td>11/12/2020</td>     
+                <td>1   hours</td>     
+            </tr> 
+            <tr>
+                <td>12/12/2020</td>     
+                <td>3   hours</td>    
+            </tr> 
+        </table>
+         <!-- the table of form to show the time consumption during the period in COM1001 and COM1002 -->
+        <button id="Bar">Bar</button>
+        <canvas id="canvas" width="1000" height="1024"></canvas>
+        <script src="../js/block.js"></script>
+
+<h4>This is the line about the time of each subject I spend in my daily life.
+    Click the push-button to find the surprise.</h4>
+<!-- brief introduction of the purpose -->
+        <textarea id="ttJsonStr"  rows="5" cols="100">[{
+            "x": "12",
+            "y": "13",
+            "value": "315"
+        },
+        {
+            "x": "78",
+            "y": "13",
+            "value": "156"
+        },
+        {
+            "x": "23",
+            "y": "30",
+            "value": "123"
+        },
+        {
+            "x": "1",
+            "y": "34",
+            "value": "331"
+        },
+        {
+            "x": "50",
+            "y": "3",
+            "value": "123"}]</textarea>
+
+          <button type="button" id="btnDrawChart" onclick="drawChart()">click</button><br/>
+          <canvas id="myCanvas" width="500" height="300"></canvas>
+
+          <script src="../js/point.js"></script>
+
+
+
+    
+    
+</div>
+</div>
+
+<div class="footer"><footer>@Wenqing Zhang ,2020</footer> </div>
+</body>
+
+   
